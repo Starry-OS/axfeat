@@ -47,6 +47,7 @@ fatfs = ["axfs/fatfs"]
 lwext4_rust = ["axfs/lwext4_rust"]
 myfs = ["axfs?/myfs"]
 ext4_rs = ["axfs/ext4_rs"]
+another_ext4 = ["axfs/another_ext4"]
 
 # Networking
 net = ["alloc", "paging", "axdriver/virtio-net", "dep:axnet", "axruntime/net"]
